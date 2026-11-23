@@ -1,0 +1,29 @@
+/* Layout.css */
+@charset "utf-8";
+
+header{
+    background: $mainColor;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0px; left: 0px;
+    z-index: 9999;
+    box-shadow: 0 0 4px #616161;
+    > h1{
+        color: $txtColor_w;
+        font-size: 18px;
+        padding: 16px 0px;
+    }
+}
+
+main{
+    padding: 70px 10px 30px 10px;
+}
+
+footer{
+    background: $txtColor_g;
+    text-align: center;
+    line-height: 50px;
+    color: $txtColor_w;
+    font-size: 12px;
+}

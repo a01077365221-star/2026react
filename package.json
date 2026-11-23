@@ -2,7 +2,9 @@
   "name": "reactstudy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://a01077365221-star.github.io/2026react",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
@@ -10,11 +12,15 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-scripts": "5.0.1",
+    "sass": "^1.108.2",
+    "swiper": "^14.4.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/a01077365221-star/2026react.git",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
